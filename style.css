@@ -1,0 +1,94 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff5f5; /* Light red background */
+    color: #333;
+}
+
+header {
+    background-color: #1b3a3ac2; /* Dark red */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px; /* Adjust based on your logo size */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #ffcccb; /* Light red on hover */
+}
+
+main {
+    background-image: url('food\ img.png'); /* Use food.png as background */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: rgb(239, 230, 230);
+}
+
+main img {
+    width: 300px; /* Adjust based on your image size */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* .about-delivery {
+    padding: 40px;
+    text-align: center;
+}
+
+.about-delivery h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.about-delivery p {
+    font-size: 18px;
+    color: #9e4545;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+} */
+
+
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #25494b; /* Dark red */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+
